@@ -1,27 +1,61 @@
-
-<!doctype html>
-<title>GemboX PlayStation | Maintenance</title>
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-<style>
-  html, body { padding: 0; margin: 0; width: 100%; height: 100%; }
-  * {box-sizing: border-box;}
-  body { text-align: center; padding: 0; background: #032a69; color: #fff; font-family: Open Sans; }
-  h1 { font-size: 50px; font-weight: 100; text-align: center;}
-  body { font-family: Open Sans; font-weight: 100; font-size: 20px; color: #fff; text-align: center; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center;}
-  article { display: block; width: 700px; padding: 50px; margin: 0 auto; }
-  a { color: #fff; font-weight: bold;}
-  a:hover { text-decoration: none; }
-  svg { width: 75px; margin-top: 1em; }
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>THIS IS NOT 404 ERROR! | GemboX PlayStation</title>
+<style type="text/css">
+ body {
+ margin:0;
+ padding:0;
+ background:#032a69;
+ text-align:center;
+ direction:rtl;
+ }
+ .text {
+  width:85%;
+  height:40%;
+  font-size:160%;
+  margin-right:8%;
+  padding:10px;
+  background:#FFF59D;
+  font-weight:900;
+ }
+ .text p{
+  text-align:justify;
+  font-size:135%;
+  font-weight:500;
+ }
+ 
+ @media (max-width: 767px) {
+  .text{
+  font-size:80%;
+  }
+  .text p{
+  font-size:120%;
+  }
+ }
 </style>
-
-<article>
-	
-				<img src="">
-	
-	
-    <h1>We&rsquo;ll be back soon!</h1>
-    <div>
-        <p>Sorry for the inconvenience.  We are in the process of recovering from a catastrophic hardware failure. We are setting up a new host and need to re-create our specific configuration, so it may take a couple of days to get everything humming again.  Thank you for your patience.</p>
-        <p>&mdash; GemboX PlayStation &mdash;</p>
-    </div>
-</article>
+</head>
+<body>
+ <div class="text" >
+  <h1>GemboX PlayStation<br>ada di https://www.sistro.my.id<br><br>Halaman ini akan dipindahkan segera</h1><br>
+  <br>
+   klik <a href="https://www.sistro.my.id/" > disini</a>&nbsp;jika Anda tidak dialihkan ke halaman .my.id
+    <span id="num" >10</span></a>&nbsp;detik</p>
+ </div>
+ <script type="text/javascript">
+ var num = 10;
+ function change(){
+  document.getElementById("num").innerHTML = num;
+  num--;
+  if(document.getElementById("num").innerHTML=="0"){
+  clearInterval(inter);
+  window.location.assign("https://www.sistro.my.id");
+  }
+ }
+ var inter= setInterval(change,1000);
+  
+ </script>
+</body>
+</html>
